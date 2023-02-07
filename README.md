@@ -10,9 +10,6 @@
 -Work
 -Contact
 
-# Usage
--View screenshot here:
-
 # Credits
 -Georgia Tech Coding Bootcamp
 -Tina Croxton
