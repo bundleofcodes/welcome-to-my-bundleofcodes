@@ -3,12 +3,12 @@
     box-shadow: inset;
 }
 
-:root {
-    var(--Color1: #fff0f5);
-    var(--Color2: #bc8f8f);
-    var(--Color3: #000000);
-    var(--color4: #4169e1);
-}
+/* :root {
+    var(--Color1: #fff0f5),
+    var(--Color2: #bc8f8f),
+    var(--Color3: #000000),
+    var(--color4: #4169e1),
+} */
 
 body {
     margin: 0;
@@ -277,9 +277,10 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    .BundleofCodes, .GirlCodeCollection, .SwankyDeveloper, .CodeRunsonFemale, .JoinMeForJava;
+    .BundleofCodes, .GirlCodeCollection, .SwankyDeveloper, .CodeRunsonFemale, .JoinMeForJava {
     text-align: center;
     justify-content: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -292,5 +293,10 @@ footer {
         footer {
             justify-content: center;
         }
-    }
+    }    
 }
+
+/* .header-test {
+    display: flex;
+    flex-wrap: wrap;
+} */
