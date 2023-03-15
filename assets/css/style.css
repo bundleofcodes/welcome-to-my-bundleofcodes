@@ -224,7 +224,7 @@ footer {
 }
 
 .link {
-    color:black
+    color:black;
 }
 
 .BundleofCodes {
@@ -233,9 +233,10 @@ footer {
 }
 
 .GirlCodeCollection {
-    background-image: url(../images/images-1.png);
+    background-image: url(../images/Your_Digital_Personal_Trainer_.png);
     background-size: 200px;
     background-position: center;
+    color: white !important;
 }
 
 .SwankyDeveloper {
@@ -274,6 +275,12 @@ footer {
     header nav {
     justify-content: center;
  }
+}
+
+@media screen and (max-width:768px) {
+    .About-Me div {
+        font-family:'Times New Roman', Times, serif
+    }
 }
 
 @media screen and (max-width: 768px) {
