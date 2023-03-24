@@ -116,6 +116,10 @@ main {
     text-shadow: 5px 5px 5px rosybrown;
 }
 
+p {
+    font-family: fantasy;
+}
+
 #BlankDiv {
     display: flex;
     width: 900px;
@@ -146,10 +150,11 @@ main {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: content;
+    /* justify-content; */
     border-left: 5px solid rosybrown;
     padding-left: 40px;
     margin-left: 40px;
+    margin-right: 155px;
     gap: 8px;
 }
 
@@ -157,7 +162,7 @@ main {
     border: royalblue solid 5px;
     min-height: 285px;
     max-height: 285px;
-    min-width: 248px;
+    min-width: 17vw;
     display:inline-flex;
     align-items: flex-end;
     background-blend-mode: soft-light;
@@ -174,8 +179,8 @@ main {
 }
 
 .BundleofCodes {
-    flex-basis: 225000px;
-    margin-right: 93px;
+    flex-basis: 2250px;
+    max-width: 120vw;
     padding-top: 150px;
     padding-bottom: 0px;
 }
@@ -234,7 +239,7 @@ footer {
 
 .GirlCodeCollection {
     background-image: url(../images/Your_Digital_Personal_Trainer_.png);
-    background-size: 200px;
+    background-size: 205px;
     background-position: center;
     color: white !important;
 }
@@ -252,7 +257,7 @@ footer {
 .JoinMeForJava {
     background-image: url(../images/beach-sunset-color-palette-hex-codes-pastel-colors-visme.jpg);
     background-position:center;
-    background-size: 840px;
+    background-size: 900px;
 }
 
 @media screen and (max-width: 768px) {
